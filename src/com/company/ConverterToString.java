@@ -9,7 +9,7 @@ public class ConverterToString implements Converter {
     private BigInteger number;
     private UseJSON reader;
     // Library of strings
-    private String path = "C:\\Users\\Админ\\IdeaProjects\\JazzTeam\\src\\com\\company\\library.json";
+    private String path = "src/com/company/library.json";
 
     public ConverterToString(){
         // Creates an object that reads json
